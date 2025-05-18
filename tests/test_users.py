@@ -1,4 +1,5 @@
-from my_api_practic import main
+import main
+
 
 class TestUsers:
 
