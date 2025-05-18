@@ -1,7 +1,7 @@
 from main import Base
 
 
-class Register(Base):
+class Users(Base):
     """Пользователи"""
 
     end_point = '/users/'

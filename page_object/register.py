@@ -9,7 +9,6 @@ class Register(Base):
     def registration(self, email, password):
         """
         Зарегистрироваться
-        :param username: Логин
         :param email: email
         :param password: Пароль
         """
