@@ -1,4 +1,6 @@
-from page_object.users import Users
+import time
+
+from my_api_practic.page_object.users import Users
 
 
 class TestUsers:

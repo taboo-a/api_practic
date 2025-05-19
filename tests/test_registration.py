@@ -1,10 +1,15 @@
-from page_object.register import Register
+import time
+
+import pytest
+
+from my_api_practic.page_object.register import Register
 
 
 class TestRegistration:
     @classmethod
     def setup_class(cls):
         cls.register_page = Register()
+
 
     def test_01_registration(self):
         """Проверка регистрации"""

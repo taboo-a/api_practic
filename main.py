@@ -1,3 +1,14 @@
+"""
+Для запуска всех тестов - python -m pytest my_api_practic/tests
+Для запуска тестов в одном модуле - python -m pytest my_api_practic/tests/test_users.py
+Для запуска тестов по маске - python -m pytest my_api_practic/tests -k 'registration'
+Для запуска тестов по маркеру - python -m pytest my_api_practic/tests -m 'my_mark'
+Для запуска тестов параллельно - python -m pytest my_api_practic/tests -n 4
+Для запуска тестов параллельно c loadfile(НАДО УТОЧНИТЬ) - python -m pytest my_api_practic/tests -n 4 --dist=loadfile=my_api_practic/
+
+Для создания requirements - pip freeze > requirements.txt
+"""
+
 import requests
 
 

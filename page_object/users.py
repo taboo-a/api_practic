@@ -1,4 +1,4 @@
-from main import Base
+from my_api_practic.main import Base
 
 
 class Users(Base):
